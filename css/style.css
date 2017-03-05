@@ -1,0 +1,97 @@
+
+/** HEADER **/
+#header-nav {
+background-color: red;
+border-radius: 0;
+border: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+
+color: white;
+font-size: 1.5em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+line-height: 0.75;
+margin-left: 0;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: underline;
+}
+
+#nav-list {
+	margin-top: 10px;
+	
+}
+
+#nav-list a { 
+	color: white;
+	text-align: center;
+	
+ }
+
+ #nav-list a:hover {
+ 	background: orange;
+ }
+
+ #nav-list a span {
+ 	font-size: 1.8em;
+ }
+
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ 	border: 1px solid #C0C0C0
+ }
+
+.navbar-header button .navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+#Chicken {
+	margin: 15px;
+	margin-right: 15px;
+	width: auto;
+	float: left;
+	padding: 15px;
+	height: 1000px;
+	background-color: yellow;
+	border: 1px solid black
+}
+#Chicken div {
+	text-align: center;
+	;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+/********** large devices only **********/
+@media (min-width: 720px) {
+  
+  /* Home Page */
+
+  /* End Home Page */
+}
+
+/********** medium devices only **********/
+@media (min-width: 540px) and (max-width: 719px) {
+  /* Home Page */
+ 
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 539px) {
+  /* Header */
+ 
+  
